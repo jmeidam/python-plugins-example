@@ -28,5 +28,5 @@ if [[ -d "spiffy-core" ]]; then
   cd .. || return
 
 else
-  echo "Must be executed from spiffy-user dir"
+  echo "Must be executed from repo root"
 fi
