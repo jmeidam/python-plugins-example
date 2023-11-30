@@ -7,9 +7,6 @@ readme = "README.md"
 homepage = "https://github.com/jmeidam/spiffy"
 repository = "https://github.com/jmeidam/spiffy"
 packages = [{include = "spiffy"}]
-#packages = [
-#    { include = "things_extra", from = "spiffy" }
-#]
 
 [tool.poetry.dependencies]
 python = "^3.9"
