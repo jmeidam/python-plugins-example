@@ -21,8 +21,8 @@ if [[ -d "spiffy-core" ]]; then
   echo " -------- rebuilding user -------- "
   cd ../spiffy-user || return
   pwd
-  . ./setup_env.sh
-  . ./install_stuff.sh
+  . ./recreate_env.sh
+  . ./install_plugin.sh
   deactivate
 
   cd .. || return
